@@ -1,0 +1,55 @@
+ @media only screen and (min-width:1025px) and (max-width:1200px) {
+
+     /* home  */
+     #home,
+     #about,
+     #services-container,
+     #team,
+     #contact {
+         padding: 0px 50px;
+     }
+
+     .home{
+        margin-top: 100px;
+     }
+     /* services  */
+     .service-box {
+         width: 24%;
+     }
+     .box-para{
+        font-size: 15px;
+        padding-top: 15px;
+     }
+     .service-btn{
+        font-size: 12px;
+        border-radius: 0px;
+        padding: 6px 22px;
+        margin-top: 15px;
+     }
+     /* team  */
+     .team-head {
+        font-size: 35px;
+    }
+
+    .team {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team-box {
+        margin-bottom: 35px;
+        border-radius: 0px;
+        margin-left: 21px;
+        margin-right: 21px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+    }
+
+    .team-box img {
+        width: 200px;
+        height: 200px;
+    }
+ }
